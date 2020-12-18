@@ -1,0 +1,47 @@
+.div-column {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 14px;
+}
+
+a, input, label {
+    font-size: 18px;
+}
+
+.user, .password {
+    padding-left: 10px;
+}
+
+input {
+    padding: 4px;
+    border-style: solid;
+    font-size: 16px;
+    border-color: rgb(173, 173, 173);
+    border-radius: 5px; 
+    border-width: 1px; 
+    width: 200px
+}
+
+select{
+    padding: 5px;
+    padding-left: 10px;
+    border-style: solid;
+    font-size: 16px;
+    border-color: rgb(173, 173, 173);
+    border-radius: 5px; 
+    border-width: 1px;
+}
+
+.button {
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(61, 162, 78);
+    border-width: 0px; 
+    height: 40px;
+    font-size: 13px;
+    width: 100%;
+}
